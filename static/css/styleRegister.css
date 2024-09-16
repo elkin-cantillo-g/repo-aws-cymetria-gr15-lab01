@@ -1,0 +1,20 @@
+h1, form {
+    text-align: justify;
+}
+
+body {
+    background-color: #74992e;
+}
+
+button {
+    background-color: brown;
+    color: white;
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+form {
+    font-size: 30px;
+}
+
