@@ -56,3 +56,17 @@ def update(Task_id, id_employee,lastname, firstname, task_text, task_date):
     except Exception as err:
         print("Error", err)
         return None
+
+def consult(Task_id):
+    try:
+        instruction = "SELECT * FROM tasks_users WHERE Task_id=" + Task_id + ";"
+        connection = connection_SQL()
+        cursor = connection.cursor()
+        cursor.execute(instruction)
+        result = cursor.fetchall()
+        print(instruction)
+        print("Task consulted")
+        return result
+    except Exception as err:
+        print("Error", err)
+        return None

@@ -1,0 +1,42 @@
+2024-09-21 18:36:32.620 [info] 
+
+
+
+
+2024-09-21 18:36:32.629 [info] Extension host agent started.
+2024-09-21 18:36:32.661 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+2024-09-21 18:36:32.674 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ec2-user/.vscode-server/extensions
+2024-09-21 18:36:32.874 [info] [<unknown>][2fc54403][ExtensionHostConnection] New connection established.
+2024-09-21 18:36:32.875 [info] [<unknown>][e0ff894d][ManagementConnection] New connection established.
+2024-09-21 18:36:32.990 [info] [<unknown>][2fc54403][ExtensionHostConnection] <4818> Launched Extension Host Process.
+2024-09-21 18:37:39.709 [info] [<unknown>][e0ff894d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-09-21 18:37:39.733 [info] [<unknown>][2fc54403][ExtensionHostConnection] <4818> Extension Host Process exited with code: 0, signal: null.
+2024-09-21 18:37:39.735 [info] Cancelling previous shutdown timeout
+2024-09-21 18:37:39.735 [info] Last EH closed, waiting before shutting down
+2024-09-21 18:37:46.897 [info] [<unknown>][c62d6a04][ManagementConnection] New connection established.
+2024-09-21 18:37:46.898 [info] [<unknown>][87bffd10][ExtensionHostConnection] New connection established.
+2024-09-21 18:37:46.900 [info] [<unknown>][87bffd10][ExtensionHostConnection] <5055> Launched Extension Host Process.
+2024-09-21 18:38:16.958 [info] Getting Manifest... ms-python.python
+2024-09-21 18:38:17.020 [info] Installing extension: ms-python.python {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ec2-user/.vscode-server/extensions/extensions.json","external":"file:///home/ec2-user/.vscode-server/extensions/extensions.json","path":"/home/ec2-user/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.93.1","date":"2024-09-11T17:20:05.685Z"}}
+2024-09-21 18:38:17.209 [info] Getting Manifest... ms-python.vscode-pylance
+2024-09-21 18:38:17.243 [info] Getting Manifest... ms-python.debugpy
+2024-09-21 18:38:17.268 [info] Installing extension: ms-python.vscode-pylance {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ec2-user/.vscode-server/extensions/extensions.json","external":"file:///home/ec2-user/.vscode-server/extensions/extensions.json","path":"/home/ec2-user/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.93.1","date":"2024-09-11T17:20:05.685Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-09-21 18:38:17.269 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ec2-user/.vscode-server/extensions/extensions.json","external":"file:///home/ec2-user/.vscode-server/extensions/extensions.json","path":"/home/ec2-user/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.93.1","date":"2024-09-11T17:20:05.685Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-09-21 18:38:21.074 [info] Extension signature verification result for ms-python.debugpy: Success. Executed: true. Duration: 3210ms.
+2024-09-21 18:38:21.167 [info] Extension signature verification result for ms-python.python: Success. Executed: true. Duration: 3058ms.
+2024-09-21 18:38:22.992 [info] Extracted extension to file:///home/ec2-user/.vscode-server/extensions/ms-python.debugpy-2024.10.0-linux-x64: ms-python.debugpy
+2024-09-21 18:38:23.000 [info] Renamed to /home/ec2-user/.vscode-server/extensions/ms-python.debugpy-2024.10.0-linux-x64
+2024-09-21 18:38:23.944 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Executed: true. Duration: 4858ms.
+2024-09-21 18:38:27.786 [info] Extracted extension to file:///home/ec2-user/.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64: ms-python.python
+2024-09-21 18:38:27.811 [info] Renamed to /home/ec2-user/.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64
+2024-09-21 18:38:33.821 [info] Extracted extension to file:///home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2: ms-python.vscode-pylance
+2024-09-21 18:38:33.897 [info] Renamed to /home/ec2-user/.vscode-server/extensions/ms-python.vscode-pylance-2024.9.2
+2024-09-21 18:38:33.930 [info] Extension installed successfully: ms-python.debugpy file:///home/ec2-user/.vscode-server/extensions/extensions.json
+2024-09-21 18:38:33.931 [info] Extension installed successfully: ms-python.python file:///home/ec2-user/.vscode-server/extensions/extensions.json
+2024-09-21 18:38:33.931 [info] Extension installed successfully: ms-python.vscode-pylance file:///home/ec2-user/.vscode-server/extensions/extensions.json
+2024-09-21 18:42:39.737 [info] New EH opened, aborting shutdown
+2024-09-21 18:42:39.744 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ec2-user/.vscode-server/cli/servers/Stable-38c31bc77e0dd6ae88a4e9cc93428cc27a56ba40/server/out/vs/server/node/server.main.js:198:6390)
+    at process.emit (node:events:531:35)
+2024-09-21 19:05:30.423 [warning] No ptyHost heartbeat after 6 seconds
+2024-09-21 19:06:26.226 [warning] No ptyHost heartbeat after 6 seconds

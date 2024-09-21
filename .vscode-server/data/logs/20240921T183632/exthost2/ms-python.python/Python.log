@@ -1,0 +1,95 @@
+2024-09-21 18:38:34.938 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-09-21 18:38:34.939 [info] Experiment 'pythonSurveyNotificationcf' is active
+2024-09-21 18:38:34.939 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-09-21 18:38:34.939 [info] Experiment 'pythonTestAdapter' is active
+2024-09-21 18:38:34.939 [warning] Dir "/home/ec2-user/.pixi/envs" is not watchable (directory does not exist)
+2024-09-21 18:38:35.053 [info] Default formatter is set to null for workspace /home/ec2-user
+2024-09-21 18:38:35.972 [info] Starting Environment refresh
+2024-09-21 18:38:35.983 [info] > pixi --version
+2024-09-21 18:38:35.986 [info] > hatch env show --json
+2024-09-21 18:38:35.986 [info] cwd: .
+2024-09-21 18:38:36.000 [info] > C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe -I ./.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64/python_files/interpreterInfo.py
+2024-09-21 18:38:36.001 [info] Environments refresh paths discovered: 30 milliseconds
+2024-09-21 18:38:36.003 [error] [Error: Command failed: C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe -I /home/ec2-user/.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64/python_files/get_output_via_markers.py /home/ec2-user/.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64/python_files/interpreterInfo.py
+/bin/sh: line 1: C:UsersECM9685GAppDataLocalProgramsPythonPython39python.exe: command not found
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:531:35)
+	at maybeClose (node:internal/child_process:1105:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:305:5)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\ECM9685G\\AppData\\Local\\Programs\\Python\\Python39\\python.exe -I /home/ec2-user/.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64/python_files/get_output_via_markers.py /home/ec2-user/.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64/python_files/interpreterInfo.py'
+}
+2024-09-21 18:38:38.005 [info] > C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe -I ./.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64/python_files/interpreterInfo.py
+2024-09-21 18:38:38.007 [error] [Error: Command failed: C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe -I /home/ec2-user/.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64/python_files/get_output_via_markers.py /home/ec2-user/.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64/python_files/interpreterInfo.py
+/bin/sh: line 1: C:UsersECM9685GAppDataLocalProgramsPythonPython39python.exe: command not found
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:531:35)
+	at maybeClose (node:internal/child_process:1105:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:305:5)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\ECM9685G\\AppData\\Local\\Programs\\Python\\Python39\\python.exe -I /home/ec2-user/.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64/python_files/get_output_via_markers.py /home/ec2-user/.vscode-server/extensions/ms-python.python-2024.14.1-linux-x64/python_files/interpreterInfo.py'
+}
+2024-09-21 18:38:38.008 [info] Environments refresh finished (event): 2037 milliseconds
+2024-09-21 18:38:38.009 [info] Environment refresh took 2039 milliseconds
+2024-09-21 18:38:38.011 [info] > pyenv which python
+2024-09-21 18:38:38.011 [info] cwd: .
+2024-09-21 18:38:38.014 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 18:38:38.017 [info] > C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe -c "import sys;print(sys.executable)"
+2024-09-21 18:38:38.018 [error] [Error: Command failed: C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe -c "import sys;print(sys.executable)"
+/bin/sh: line 1: C:UsersECM9685GAppDataLocalProgramsPythonPython39python.exe: command not found
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:531:35)
+	at maybeClose (node:internal/child_process:1105:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:305:5)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\ECM9685G\\AppData\\Local\\Programs\\Python\\Python39\\python.exe -c "import sys;print(sys.executable)"'
+}
+2024-09-21 18:38:38.118 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 18:38:38.119 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 18:38:38.155 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 18:38:38.156 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 18:38:38.259 [info] > pyenv which python
+2024-09-21 18:38:38.259 [info] cwd: .
+2024-09-21 18:38:38.264 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 18:38:39.469 [info] Starting Pylance language server.
+2024-09-21 18:38:39.471 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 18:38:39.489 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 18:38:39.495 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 18:38:41.065 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 18:38:53.390 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 18:40:00.279 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 18:42:52.749 [info] Discover tests for workspace name: ec2-user - uri: /home/ec2-user/routes/route.py
+2024-09-21 18:44:06.637 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 18:44:16.421 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 18:44:19.157 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 18:44:20.940 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 18:44:22.570 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 18:44:30.739 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 18:44:33.942 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 18:44:41.177 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 18:44:44.154 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 18:44:54.433 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 18:44:56.646 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 18:45:01.547 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 18:45:06.753 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 18:45:10.875 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 18:45:12.244 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 18:45:17.578 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 18:45:24.239 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 19:03:57.478 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe
+2024-09-21 19:04:02.338 [warning] could not find a pixi interpreter for the interpreter at C:\Users\ECM9685G\AppData\Local\Programs\Python\Python39\python.exe

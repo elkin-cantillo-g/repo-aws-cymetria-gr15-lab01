@@ -1,0 +1,10 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "vscode-edge-devtools.webhint": false,
+    "remote.SSH.path": "D:\\Private\\Varios\\PortableGit\\usr\\bin\\ssh.exe",
+    "remote.SSH.remotePlatform": {
+        "cymetria-eacg-01": "linux",
+        "cymetria-laboratorio": "linux"
+    },
+    "git.autofetch": true
+}

@@ -6,3 +6,8 @@
 .viminfo
 .lesshst
 .gitignore.swp
+keys.py
+.gitignore
+.git/
+controllers/__pycache__
+database/__pychache__
